@@ -3,6 +3,28 @@ body {
   font-family: sans-serif;
 }
 
+.contact-section {
+  padding-top: 75px;
+}
+
+.contact-form {
+  padding-left: 100px;
+}
+
+.contact-form input[type='submit'] {
+  background: red;
+  border: 1px solid darkred;
+  color: white;
+  padding: 1% 1.5%;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.contact-form input[type='text'] {
+  padding: 5px 10px 5px 2px;
+  border-radius: 3px;
+}
+
 .main-header {
   background-image: url('https://www.toyotaoforlando.com/wp-content/themes/DealerInspireDealerTheme/images/about-row-bg.jpg');
   height: 500px;
@@ -81,7 +103,9 @@ h1,h2 {
 #navbar {
   padding-left: 5%;
   position: fixed;
+  background-color: white;
   color: #333;
+  width: 100%;
 }
 
 #navbar ul li {
