@@ -81,6 +81,7 @@ h1,h2 {
 #navbar {
   padding-left: 5%;
   position: fixed;
+  color: #333;
 }
 
 #navbar ul li {
